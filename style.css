@@ -13,7 +13,9 @@ body {
   font-weight: 75%;
   font-style: normal;
   } 
-
+.hour{
+  margin-left: 5rem;
+}
 
 .blurred {
   filter: blur(2px);

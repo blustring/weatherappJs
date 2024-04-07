@@ -40,7 +40,9 @@ function getIconUrl(iconCode) {
 }
 
 const currentIcon = document.querySelector("[data-current-icon]")
+//element.querySelector("[data-icon]").src = getIconUrl(hour.iconCode)
 function renderCurrentWeather(current) {
+  console.log("Current icon code:", current.iconCode);
   currentIcon.src = getIconUrl(current.iconCode)
   setValue("current-temp", current.temperature)
   setValue("current-high", current.highTemp)
